@@ -267,7 +267,7 @@ I would like to thanks Microverse for guiding me to complete this project.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](https://github.com/admirerbrown/vetClinic-sql/blob/beta-branch/LICENSE.md) licensed.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
