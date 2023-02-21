@@ -1,7 +1,10 @@
-# curriculum-databases-projects-template
+# VET_CLINIC
 
-> This template should be used for database related projects at Microverse.
-> Generate your own repository, update this README and edit all files content while working on projects. You should not be adding any new files unless asked otherwise.
+> VET_CLINIC is a relational database created for  the data structure of a vet clinic. it a complete  database with data about:
+>- animals
+>- animals' owners
+>- clinic employees
+>- visits
 
 
 ## Getting Started
@@ -41,41 +44,45 @@ After you're finished please remove all the comments and instructions!
 
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ](#faq)
-- [📝 License](#license)
+- [VET\_CLINIC](#vet_clinic)
+  - [Getting Started](#getting-started)
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 \[vet\_clinic\] ](#-vet_clinic-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+    - [Run tests](#run-tests)
+    - [Deployment](#deployment)
+  - [👥 Author ](#-author-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [vet_clinic] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+> VET_CLINIC is a relational database created for  the data structure of a vet clinic. it a complete  database.
 
-**[your_project__name]** is a...
+**[vet_Clinic]** is a SQL Project
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
+> SQL
+> POSTGRES
 
-<details>
+
+<!-- <details>
   <summary>Client</summary>
   <ul>
     <li><a href="https://reactjs.org/">React.js</a></li>
@@ -94,7 +101,7 @@ After you're finished please remove all the comments and instructions!
   <ul>
     <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
   </ul>
-</details>
+</details> -->
 
 <!-- Features -->
 
@@ -102,9 +109,9 @@ After you're finished please remove all the comments and instructions!
 
 > Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[well structured database for an easy data storage]**
+- **[enables users to perform all SQL operations ]**
+- **[lays foundation for building complex clinic databases]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -112,7 +119,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
+> COMING SOON.
 
 - [Live Demo Link](https://yourdeployedapplicationlink.com)
 
@@ -122,13 +129,23 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
+> Open GitHub URL of repositry.
+>Download Code repo in zip.
+>Extract and open repo folder into visual studio code or any other Text Editor Software.
+>GitHub Repositry URL: https://github.com/admirerbrown/vetClinic-sql.git 
+
+>git clone https://github.com/admirerbrown/vetClinic-sql.git
 
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
 In order to run this project you need:
+- Visual Studio Code
+- Knowldege About SQL & POSTGRES
+- know of how to setup a sql in the terminal
+- Git
+- Github
 
 <!--
 Example command:
@@ -142,18 +159,17 @@ Example command:
 
 Clone this repository to your desired folder:
 
-<!--
+
 Example commands:
 
 ```sh
   cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  git clone https://github.com/admirerbrown/vetClinic-sql.git
 ```
---->
 
 ### Install
-
-Install this project with:
+> - sudo su -l postgres
+> - psgl
 
 <!--
 Example command:
@@ -167,6 +183,8 @@ Example command:
 ### Usage
 
 To run the project, execute the following command:
+> - \c vet_clinic in terminal to connect to database
+> - \d animals 
 
 <!--
 Example command:
@@ -178,7 +196,7 @@ Example command:
 
 ### Run tests
 
-To run tests, run the following command:
+<!-- To run tests, run the following command: -->
 
 <!--
 Example command:
@@ -190,35 +208,19 @@ Example command:
 
 ### Deployment
 
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
-## 👥 Authors <a name="authors"></a>
+## 👥 Author <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
 
-👤 **Author1**
+- GitHub: [@githubhandle](https://github.com/admirerbrown)
+- Twitter: [@twitterhandle](https://twitter.com/brown_admirer)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/samuel-ntow-kyere/)
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -226,11 +228,10 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **Include other entities in the database**
+- [ ] **build the whole backend for the project**
+- [ ] **connect it to a frontend application**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -240,7 +241,7 @@ Example:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/admirerbrown/vetClinic-sql/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -248,9 +249,8 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
 
-If you like this project...
+If you like this project please follow me on github and give stars to my repo..
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -258,27 +258,10 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
+I would like to thanks Microverse for guiding me to complete this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FAQ (optional) -->
-
-## ❓ FAQ <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
 
@@ -286,6 +269,5 @@ I would like to thank...
 
 This project is [MIT](./LICENSE) licensed.
 
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
