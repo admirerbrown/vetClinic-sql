@@ -10,3 +10,14 @@ CREATE TABLE animals (
     species VARCHAR(100) NOT NULL,
 
 );
+
+CREATE TABLE owners (
+    id BIGSERIAL PRIMARY KEY,
+    Full_name VARCHAR(150) NOT NULL,
+    Age INT NOT NULL
+);
+
+CREATE TABLE species (
+    id BIGSERIAL PRIMARY KEY,
+    name VARCHAR(150)
+);
