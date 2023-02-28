@@ -150,4 +150,7 @@ ORDER BY species_id DESC
 LIMIT 1;
 
 
+--- performance audit queries...
+ALTER TABLE owners ADD COLUMN email VARCHAR(120);
+
 

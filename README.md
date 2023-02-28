@@ -73,6 +73,8 @@ After you're finished please remove all the comments and instructions!
 > VET_CLINIC is a relational database created for  the data structure of a vet clinic. it a complete  database.
 
 **[vet_Clinic]** is a SQL Project
+> Schema Diagram
+<img src='/vet_Clinic_schemaDiagram.JPG' alt="Schema Diagram">
 
 ## 🛠 Built With <a name="built-with"></a>
 
